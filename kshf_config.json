@@ -1,0 +1,50 @@
+{
+  "domID": "#demo_Browser",
+  "itemName": "Turkiye de Kadina Siddet Olumle",
+  "source": {
+    "gdocId": "1pWieRGU8NzBL1D9fkahLjt-UImXv4QomP0SN2h4kfOY",
+    "tables": [
+      {
+        "name": "Turkiye de Kadina Siddet Olumle",
+        "id": "id"
+      }
+    ],
+    "url": "https://docs.google.com/spreadsheets/d/1pWieRGU8NzBL1D9fkahLjt-UImXv4QomP0SN2h4kfOY"
+  },
+  "summaries": [
+    {
+      "name": "Kim tarafından",
+      "panel": "left"
+    },
+    {
+      "name": "Neden",
+      "panel": "left"
+    },
+    {
+      "name": "Nasıl",
+      "panel": "right"
+    },
+    {
+      "name": "Korunma talebi",
+      "panel": "right"
+    },
+    {
+      "name": "Yıl",
+      "panel": "bottom"
+    }
+  ],
+  "leftPanelLabelWidth": 160,
+  "rightPanelLabelWidth": 160,
+  "middlePanelLabelWidth": 160,
+  "recordDisplay": {
+    "displayType": "list",
+    "textSearch": "id",
+    "recordView": "id",
+    "sortBy": [
+      "id",
+      "Yıl"
+    ],
+    "sortColWidth": 50,
+    "detailsToggle": "zoom"
+  }
+}
