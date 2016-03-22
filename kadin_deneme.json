@@ -33,18 +33,13 @@
       "panel": "bottom"
     }
   ],
-  "leftPanelLabelWidth": 160,
-  "rightPanelLabelWidth": 160,
-  "middlePanelLabelWidth": 160,
   "recordDisplay": {
     "displayType": "list",
-    "textSearch": "id",
-    "recordView": "id",
-    "sortBy": [
-      "id",
-      "Yıl"
-    ],
-    "sortColWidth": 50,
-    "detailsToggle": "zoom"
-  }
+    "textSearch": function(){
+      var str=this['İsim'];
+      if(this['Kaynak-Foto'])
+      str+="<img class='kaynakFoto' src='http://www.anitsayac.com/"+this['Kaynak-Foto']+"'>";
+      return str;
+    }
+    }
 }
